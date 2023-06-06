@@ -1,0 +1,103 @@
+.inputBox > span{
+    font-family: "Roboto";
+    animation: sliding 14s linear infinite;
+    display: block;
+}
+@keyframes sliding{
+    0%{
+      transform: translateX(-70%);
+    }
+    100%{
+      transform: translateX(130%);
+    }
+  }
+  /* .navbar{
+    overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+
+.navbar{
+	display: flex;
+	align-items: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: -5px;
+	z-index: 2;
+	height: 70px;
+	min-height: 70px;
+	width: calc(100% - 1.5rem);
+	background-color: #fff;
+	padding: 0 1rem;
+	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
+*/
+.searchBox {
+   
+    
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  top: 0%;
+  left: 0;
+}
+
+.searchBox > input[type="text"] {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  background-color: white;
+  color: rgba(0, 0, 0, 0.637);
+  padding: 1vmax 2vmax;
+  width: 50%;
+  outline: none;
+  border: 2px solid #197EF3;
+  border-radius: 8px;
+  font: 300 1.1vmax cursive;
+  box-sizing: border-box;
+  height: 8%;
+}
+@media screen and (max-width: 600px) {
+  .searchBox > input[type="text"] {
+    width: 100%;
+    font: 300 4vw cursive;
+    height: 10%;
+  }
+
+  .searchBox > input[type="submit"] {
+    height: 10%;
+    width: 30%;
+    font: 300 4vw "Roboto";
+  }
+}
+@media screen and (max-width: 600px) {
+  .searchBox > input[type="text"]{
+    margin: 0 5%;
+  }
+  svg.bi.bi-search.pointer{
+    right: 9%!important;
+  }
+}
+.search_product-box{
+  width: 400px;
+  margin: 10px;
+  padding: 0%;
+  height: 40px;
+  top: 3%;
+  right: 12%;
+  border: 2px solid #3BB77E;
+  border-radius: 8px;
+  position: sticky;
+}
+
+.active-link{
+  color: #3BB77E;
+  text-decoration: underline;
+}
+
+.linkText{
+  color:black;
+}

@@ -1,0 +1,26 @@
+.Request{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5572e6e3e4b013344d656d71/1511784011833-2J9DC8R6DL7A7KNSTY63/request-box.jpg?format=1500w);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+@keyframes zoom {
+    0%,100%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(.7);
+    }
+}
+input.PhoneInputInput{
+   border: none;
+   outline:none;
+   
+   margin:"10px 0";
+   font-size:"1.2vmax";
+   height:"40px";
+   width:"400px";
+   margin:"auto";
+   padding:"20px 0"
+}
